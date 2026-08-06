@@ -14,7 +14,8 @@ The format is based on Keep a Changelog, and this project follows Semantic Versi
 - README DOI badge and citation guidance.
 
 ### Changed
-- Package, release-please, Zenodo, and citation metadata now target version `1.1.0`.
+- Package, Zenodo, and citation metadata now target version `1.1.0`.
+- Release automation now publishes directly from pushed signed `v*` tags.
 - Release documentation now includes the Zenodo archive step.
 
 ## [1.0.4] - 2026-03-11

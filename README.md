@@ -137,7 +137,7 @@ Before publishing or updating this action in GitHub Marketplace:
 - Confirm `action.yml` metadata is final (`name`, `description`, `branding`, `inputs`).
 - Ensure a signed, annotated `v*` tag exists for the release commit.
 - Keep `v1` pointing to the latest stable `v1.x.y` tag.
-- Publish the GitHub Release from the existing signed tag.
+- Verify the tag-triggered Release workflow published the GitHub Release.
 - Verify README examples reference `DiogoRibeiro7/repo-task-tracker@v1`.
 - Verify token guidance:
   - board sync: PAT with Issues (read/write) + Projects (read/write)
