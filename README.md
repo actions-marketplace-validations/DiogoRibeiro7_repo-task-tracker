@@ -3,6 +3,7 @@
 [![CI](https://github.com/DiogoRibeiro7/repo-task-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/DiogoRibeiro7/repo-task-tracker/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/DiogoRibeiro7/repo-task-tracker/graph/badge.svg?branch=main)](https://codecov.io/gh/DiogoRibeiro7/repo-task-tracker)
 [![Release](https://img.shields.io/github/v/release/DiogoRibeiro7/repo-task-tracker)](https://github.com/DiogoRibeiro7/repo-task-tracker/releases)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19006104.svg)](https://doi.org/10.5281/zenodo.19006104)
 
 A GitHub Action that turns a `tracker.json` file in your repository into
 GitHub Issues, then syncs those issues to a central GitHub Projects (v2) board.
@@ -67,7 +68,7 @@ curvknn/tracker.json  ──┘
     },
     {
       "title": "PyPI / Zenodo release",
-      "description": "Publish to PyPI, mint Zenodo DOI, tag v1.0.0.",
+      "description": "Publish to PyPI, mint Zenodo DOI, tag v1.1.0.",
       "status": "planned",
       "priority": "medium"
     },
@@ -261,3 +262,8 @@ pytest
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 Release process and signed tag requirements are documented in [RELEASE_POLICY.md](RELEASE_POLICY.md).
+
+## Citation
+
+To cite all versions of this software, use the Zenodo concept DOI:
+[10.5281/zenodo.19006104](https://doi.org/10.5281/zenodo.19006104).

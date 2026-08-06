@@ -2,7 +2,7 @@
 
 ## Scope
 
-This project publishes release tags as `v*` (for example `v1.0.4`).
+This project publishes release tags as `v*` (for example `v1.1.0`).
 
 ## Requirements
 
@@ -17,6 +17,11 @@ This project publishes release tags as `v*` (for example `v1.0.4`).
 
 ## Recommended process
 
-1. Create a signed annotated tag locally.
-2. Push the tag to origin.
-3. Run the `Release` workflow and provide the existing tag name.
+1. Prepare release changes on `develop`.
+2. Open and merge a PR from `develop` into `main`.
+3. Check out the updated `main` branch locally.
+4. Create a signed annotated tag on `main`.
+5. Push the tag to origin.
+6. Run the `Release` workflow and provide the existing tag name.
+7. After Zenodo is connected to this GitHub repository, archive the published
+   GitHub Release on Zenodo so it mints a software DOI using `.zenodo.json`.
