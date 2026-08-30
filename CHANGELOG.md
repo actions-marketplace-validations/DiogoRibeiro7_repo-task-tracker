@@ -4,25 +4,36 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project follows Semantic Versioning.
 
-## [1.1.0](https://github.com/DiogoRibeiro7/repo-task-tracker/compare/v1.0.3...v1.1.0) (2026-03-13)
-
-
-### Features
-
-* add configurable orphan issue handling modes ([139dcee](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/139dcee2f3a17b6e90064ff264586f9a0c84965d))
-* add dry-run mode for issue and project sync operations ([6a13a8c](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/6a13a8caa4db11f0bb6f171665eb338e0bcdaf78))
-* add GitHub step summary reporting for sync actions ([21813ca](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/21813ca55891b352856b37c30b5f694ea05548dd))
-* add multi-file tracker glob processing with per-file sync ([80951a9](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/80951a923ebf82762bd578967d2e9be510397e89))
-* add rate-limit buffering and secondary-limit retry ([fdfe940](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/fdfe94065b226bab74b43225093f9b4d8a9bd604))
-* add task dependency rendering and cycle detection ([9a2cab6](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/9a2cab6bd2e005e4d29acaa9075e32debc06ed1b))
-* add validate-only mode with config validation and CLI flag ([defbe8c](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/defbe8c305ef94a2ccf923f1d845bc7fc878c6f0))
-* strengthen config validation with source-aware errors ([226aa37](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/226aa37e7c7952927f76c37a260e160c19e99d0b))
-* support assignees and milestone fields in tasks ([975fb49](https://github.com/DiogoRibeiro7/repo-task-tracker/commit/975fb49c2e0e85f11bec36de9580143631bca836))
-
 ## [Unreleased]
 
+## [1.2.1](https://github.com/DiogoRibeiro7/repo-task-tracker/compare/v1.2.0...v1.2.1) - 2026-08-06
+
 ### Changed
-- Codecov patch coverage gate now uses repository config (`target: 90%`, `threshold: 1%`).
+- Correct release metadata after the `1.2.0` metadata-only release.
+
+## [1.2.0](https://github.com/DiogoRibeiro7/repo-task-tracker/compare/v1.1.1...v1.2.0) - 2026-08-06
+
+### Changed
+- Package, Zenodo, and citation metadata now target version `1.2.0`.
+
+## [1.1.1](https://github.com/DiogoRibeiro7/repo-task-tracker/compare/v1.1.0...v1.1.1) - 2026-08-06
+
+### Changed
+- Release workflow now supports a manual fallback for publishing an existing
+  signed tag if the tag-triggered workflow does not start.
+- Release creation is idempotent when the GitHub Release already exists.
+
+## [1.1.0](https://github.com/DiogoRibeiro7/repo-task-tracker/compare/v1.0.5...v1.1.0) - 2026-08-06
+
+### Added
+- Zenodo metadata for GitHub release archiving.
+- Citation metadata with the all-versions Zenodo DOI.
+- README DOI badge and citation guidance.
+
+### Changed
+- Package, Zenodo, and citation metadata now target version `1.1.0`.
+- Release automation now publishes directly from pushed signed `v*` tags.
+- Release documentation now includes the Zenodo archive step.
 
 ## [1.0.4] - 2026-03-11
 
